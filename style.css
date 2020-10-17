@@ -1,0 +1,33 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.container {
+    position: relative;
+}
+
+canvas {
+    border: 1px solid #333;
+    background-color: transparent;
+}
+
+#div-canvas {
+    position: absolute;
+    background-color: #e872;
+    top: 0;
+    left: 0;
+}
+
+#div-canvas span {
+    display: inline-block;
+    width: 40px;
+    height: 15px;
+    margin: 2px;
+    background-color: rgb(75, 75, 75);
+}
